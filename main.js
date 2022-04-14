@@ -9,8 +9,8 @@ let droneMesh;
 
 //initialization function ya kuset background colour, camera postion na ku render
 function init() {
-    scene.background = new THREE.Color('black');
-    camera.position.set(10, 20, 30);
+    scene.background = new THREE.Color('blue');
+    camera.position.set(0, 10, 20);
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 }
@@ -25,13 +25,13 @@ function setLight() {
 
 function loadGLTF() {
     let droneLoader = new THREE.GLTFLoader(); // hapa tunacreate the GLTFLoader ...Ni kama instances in python
-    droneLoader.load('./Loader/robo.gltf', (gltf) => {
+    droneLoader.load('./Loader/model.glb', (gltf) => {
         droneMesh = gltf.scene;
-        droneMesh.scale.set(0.1, 0.1, 0.1) //tunaset scale
+        droneMesh.scale.set(25, 25, 25) //tunaset scale
         scene.add(droneMesh) //tuna add scene
-        droneMesh.position.x = 0;
-        droneMesh.position.y = 0;
-        droneMesh.position.z = 0;
+        droneMesh.position.x = -5;
+        droneMesh.position.y = 7;
+        droneMesh.position.z = -1;
     });
 }
 
