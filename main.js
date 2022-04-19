@@ -9,7 +9,7 @@ let droneMesh;
 
 //initialization function ya kuset background colour, camera postion na ku render
 function init() {
-    scene.background = new THREE.Color('blue');
+    scene.background = new THREE.Color('grey');
     camera.position.set(0, 10, 20);
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
@@ -30,8 +30,8 @@ function loadGLTF() {
         droneMesh.scale.set(25, 25, 25) //tunaset scale
         scene.add(droneMesh) //tuna add scene
         droneMesh.position.x = -5;
-        droneMesh.position.y = 7;
-        droneMesh.position.z = -1;
+        droneMesh.position.y = 5;
+        droneMesh.position.z = 5;
     });
 }
 
@@ -42,7 +42,7 @@ function animate() {
     requestAnimationFrame(animate);
 
     if (droneMesh && droneMesh.rotation) {
-        droneMesh.rotation.y -= 0.0001;
+        droneMesh.rotation.y -= 0.01;
     }
 
     //droneMesh.rotation.x += 0.01;
