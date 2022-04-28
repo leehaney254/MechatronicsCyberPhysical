@@ -1,0 +1,36 @@
+Constrained Instances: 'Lock-1', 'Lock-1', 'slottedbase-1', 'slottedbase-1'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Lock-1', 'Lock-1', 'slottedbase-1', 'slottedbase-1'
+Constraint Name: Width3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Lock-2', 'Lock-2', 'slottedbase-1', 'slottedbase-1'
+Constraint Name: Width5
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Lock-2', 'Lock-2', 'slottedbase-1', 'slottedbase-1'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'breadth-1', 'breadth-1', 'slottedbase-1', 'slottedbase-1'
+Constraint Name: Width7
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'L298N Motor Driver-1', 'L298N Motor Driver-1', 'breadth-1', 'breadth-2'
+Constraint Name: Width8
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: Unknown
+Constraint Name: BeltMates3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'motorroller-1', 'encoderroller-1'
+Constraint Name: BeltMate3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'finalpreassembly', 'finalpreassembly', 'Belt3-5^finalpreassembly-1', 'Belt3-5^finalpreassembly-1'
+Constraint Name: LockToSketchMate2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------

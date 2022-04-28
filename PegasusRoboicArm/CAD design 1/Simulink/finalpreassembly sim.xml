@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/14/22||16:44:47" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="finalpreassembly" uid="finalpreassembly" version="786">
+<AssemblyFile name="finalpreassembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Encoder Motor Section-1" uid="Encoder Motor Section-1" grounded="true" entityUid="Encoder Motor Section*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 -4.4408920985006262e-16 -1.8833941880262316e-16 -2.3999053498272847e-16 0 -1 5.5511151231257827e-16 1 1.5840324017518247e-16</Rotation>
+<Translation>0.090012405402890391 0.13346970140622416 0.053106210850458968</Translation>
+</Transform>
+</Instance>
+<Instance name="Lock-1" uid="Lock-1" entityUid="Lock*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -0.99999999999999989 0 -1 0</Rotation>
+<Translation>0.10114527296262704 0.016119701406224082 0.068882779351404702</Translation>
+</Transform>
+</Instance>
+<Instance name="standcasing-1" uid="standcasing-1" entityUid="standcasing*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -1.0408340855860778e-16 -3.0977204928157184e-15 3.0977204928157188e-15 -2.0641957055978434e-16 0.99999999999999978 -1.0408340855860843e-16 -0.99999999999999989 -2.0641957055978399e-16</Rotation>
+<Translation>0.13455727580314508 0.020269701406224187 0.046032912421139612</Translation>
+</Transform>
+</Instance>
+<Instance name="slottedbase-1" uid="slottedbase-1" grounded="true" entityUid="slottedbase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.095138985555388994 0.075019701406224104 0.07453291242113956</Translation>
+</Transform>
+</Instance>
+<Instance name="breadth-1" uid="breadth-1" entityUid="breadth*:*Default">
+<Transform>
+<Rotation>-1.1114827545963829e-16 0 1 -1 0 0 2.2204460492503131e-16 -1.0000000000000002 -2.7755575615628914e-16</Rotation>
+<Translation>0.02848898555538899 0.075209701406224128 0.090442924147132814</Translation>
+</Transform>
+</Instance>
+<Instance name="breadth-2" uid="breadth-2" entityUid="breadth*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0.15803898555538901 0.074829701406224122 0.090142924147132791</Translation>
+</Transform>
+</Instance>
+<Instance name="Shaft-1" uid="Shaft-1" entityUid="Shaft*:*Default">
+<Transform>
+<Rotation>0.83716910433122238 0 0.54694413860398872 -1.7327544749939185e-16 1 2.652205974012419e-16 -0.54694413860398872 -3.1680648035036494e-16 0.83716910433122238</Rotation>
+<Translation>0.047854028439539613 0.14576970140622414 0.04611673439074862</Translation>
+</Transform>
+</Instance>
+<Instance name="Brushless motor for RC boat AQUASTAR 3660-1700KV-1" uid="Brushless motor for RC boat AQUASTAR 3660-1700KV-1" entityUid="Brushless motor for RC boat AQUASTAR 3660-1700KV*:*Défaut">
+<Transform>
+<Rotation>-0.29367294239021235 0.95590595923860378 1.5339609120640106e-16 0 -1.3458294218504703e-16 0.99999999999999989 0.95590595923860378 0.29367294239021235 0</Rotation>
+<Translation>0.14570286816129444 0.12976970140622418 0.044148479118836889</Translation>
+</Transform>
+</Instance>
+<Instance name="motorroller-1" uid="motorroller-1" entityUid="motorroller*:*Default">
+<Transform>
+<Rotation>1.5339609120640109e-16 -1 0 1 1.5339609120640109e-16 0 0 0 1</Rotation>
+<Translation>0.14820397616143136 0.13476970140622416 0.044148479118836889</Translation>
+</Transform>
+</Instance>
+<Instance name="Lock-2" uid="Lock-2" entityUid="Lock*:*Default">
+<Transform>
+<Rotation>1 -3.8857805861880479e-16 0 0 1.2879757601700136e-16 1 -3.8857805861880479e-16 -1 1.2879757601700134e-16</Rotation>
+<Translation>0.08913269814815096 0.13391970140622414 0.068882779351404716</Translation>
+</Transform>
+</Instance>
+<Instance name="encoderroller-1" uid="encoderroller-1" entityUid="encoderroller*:*Default">
+<Transform>
+<Rotation>0 1 -3.1680648035036494e-16 -1 0 3.1680648035036494e-16 3.1680648035036494e-16 3.1680648035036494e-16 1</Rotation>
+<Translation>0.042638926658594478 0.14257990488598324 0.046116734390748614</Translation>
+</Transform>
+</Instance>
+<Instance name="Belt3-5^finalpreassembly-1" uid="Belt3-5^finalpreassembly-1" entityUid="Belt3-5^finalpreassembly*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.14570286816129444 0.13976970140622416 0.044148479118836889</Translation>
+</Transform>
+</Instance>
+<Instance name="L298N Motor Driver-1" uid="L298N Motor Driver-1" entityUid="L298N Motor Driver*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.095113985555388997 0.045895495940986623 0.074532912421140046</Translation>
+</Transform>
+</Instance>
+<Instance name="Encoder Body-1" uid="Encoder Body-1" entityUid="Encoder Body*:*Default">
+<Transform>
+<Rotation>0.42052515807898622 0 -0.90728087791082856 -2.8743246162011763e-16 -1 -1.3322509522978268e-16 -0.90728087791082856 3.1680648035036331e-16 -0.42052515807898622</Rotation>
+<Translation>0.047854028439539675 0.12476970140622443 0.046116734390748648</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0.043793843278286337 0.034826701570680615 0.0037000000000000366</Position>
+<Axis>-0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>-0.0082600000000000173 0.065950000000000009 0.003699999999999995</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>-0.0031334198475013869 0.021426701570680606 0.0037000000000000088</Position>
+<Axis>-0.99999999999999978 -1.1102230246251575e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0.029990462758404016 0.02142670157068062 0.0037000000000000088</Position>
+<Axis>0 1 1.7296550239744263e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0.063 0.054750000000000021 0.003699999999999995</Position>
+<Axis>1.819321946488525e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 1.7296550239744263e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 1.7296550239744263e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>standcasing-1</Uid>
+</InstancePath>
+<Position>0 0 0.003699999999999995</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>-0.0082599999999999896 -0.065950000000000022 0.003699999999999995</Position>
+<Axis>1 3.0977204928157286e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>standcasing-1</Uid>
+</InstancePath>
+<Position>-0.047678290247756092 -0.032599999999999969 0.003699999999999995</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>standcasing-1</Uid>
+</InstancePath>
+<Position>-0.031078290247756102 -0.028499999999999949 0.0036999999999999984</Position>
+<Axis>6.5052130349130236e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0.063 -0.054749999999999993 0.003699999999999995</Position>
+<Axis>9.0966097324426255e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>standcasing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lock-1</Uid>
+</InstancePath>
+<Position>0.018006287407238031 -0.0056501330697348723 0.0036999999999999984</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lock-2</Uid>
+</InstancePath>
+<Position>0.018006287407238031 -0.0056501330697348584 0.0037000000000000088</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>-0.063 -0.032249999999999966 0.003699999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-1</Uid>
+</InstancePath>
+<Position>0.032440000000000004 0.011910011725993222 0</Position>
+<Axis>-1 1.6653345369377353e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>-0.063 -0.032249999999999966 0.003699999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-1</Uid>
+</InstancePath>
+<Position>0.032440000000000004 0.011910011725993222 0</Position>
+<Axis>-1 1.6653345369377353e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-1</Uid>
+</InstancePath>
+<Position>0.054640000000000001 0.010110011725993198 0.0036999999999999984</Position>
+<Axis>-1.6653345369377348e-16 1.0000000000000002 2.2922954523343381e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>standcasing-1</Uid>
+</InstancePath>
+<Position>-0.10647829024775607 -0.034300000000000004 0.003699999999999995</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0.063 0.032250000000000029 0.003699999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-2</Uid>
+</InstancePath>
+<Position>-0.032439999999999997 0.011910011725993222 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0.003699999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-2</Uid>
+</InstancePath>
+<Position>-0.032439999999999997 0.011910011725993222 0</Position>
+<Axis>-1.700029006457271e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0.06660000000000002 0.032250000000000029 0.003699999999999995</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>breadth-2</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Encoder Body-1</Uid>
+</InstancePath>
+<Position>0 -0.0039999999999999897 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Shaft-1</Uid>
+</InstancePath>
+<Position>0 -0.017000000000000015 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Body-1</Uid>
+</InstancePath>
+<Position>0 -0.0039999999999999897 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shaft-1</Uid>
+</InstancePath>
+<Position>0 -0.017000000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>-0.042158376963350772 -0.0069894764597103129 0.0037000000000000088</Position>
+<Axis>0 -1.7296550239744263e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shaft-1</Uid>
+</InstancePath>
+<Position>0 -0.017000000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 1.7296550239744263e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Body-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999906 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 1.7296550239744263e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>-0.0031334198475013869 0.021426701570680606 0.0037000000000000088</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0.05569046275840403 -0.0089577317316221206 0.0037000000000000088</Position>
+<Axis>0 -1.7296550239744263e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brushless motor for RC boat AQUASTAR 3660-1700KV-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999986</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Encoder Motor Section-1</Uid>
+</InstancePath>
+<Position>0 0 0.0037000000000000088</Position>
+<Axis>0 1.7296550239744263e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brushless motor for RC boat AQUASTAR 3660-1700KV-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shaft-1</Uid>
+</InstancePath>
+<Position>0 -0.017000000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>encoderroller-1</Uid>
+</InstancePath>
+<Position>0.00881020347975911 0.0052151017809451347 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shaft-1</Uid>
+</InstancePath>
+<Position>0 -0.0040000000000000036 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>encoderroller-1</Uid>
+</InstancePath>
+<Position>0.0008102034797591029 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brushless motor for RC boat AQUASTAR 3660-1700KV-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999986</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motorroller-1</Uid>
+</InstancePath>
+<Position>0 0.0025011080001369201 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brushless motor for RC boat AQUASTAR 3660-1700KV-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999986</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motorroller-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0025011080001369201 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>slottedbase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L298N Motor Driver-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="BeltMate3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motorroller-1</Uid>
+</InstancePath>
+<Position>0 0.0025011080001369201 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>encoderroller-1</Uid>
+</InstancePath>
+<Position>0.0023102034797591042 0.0052151017809451347 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Belt3-5^finalpreassembly" uid="Belt3-5^finalpreassembly*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="finalpreassembly.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015900397057769359</Mass>
+<CenterOfMass>-0.043450440869627113 0.00087401710180441607 0</CenterOfMass>
+<Inertia>1.827364571257576e-07 2.2267870365512012e-06 2.40686114038273e-06 0 0 4.1133261135234424e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Belt3-5-finalpreassembly_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Brushless motor for RC boat AQUASTAR 3660-1700KV" uid="Brushless motor for RC boat AQUASTAR 3660-1700KV*:*Défaut" version="572">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brushless motor for RC boat AQUASTAR 3660-1700KV.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.075104310153175452</Mass>
+<CenterOfMass>0 6.6684451576764454e-05 -0.030370713747669312</CenterOfMass>
+<Inertia>2.9981210614861509e-05 2.9911857746956509e-05 1.488472950932544e-05 2.1225970883034428e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Brushless motor for RC boat AQUASTAR 3660-1700KV_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Encoder Body" uid="Encoder Body*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Encoder Body.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040879687947640866</Mass>
+<CenterOfMass>-5.3634617927959084e-09 0.017080348782757999 -3.1362641274588748e-08</CenterOfMass>
+<Inertia>8.1939752251662006e-06 7.0861665963718148e-06 8.1937769807131409e-06 1.842341847873451e-11 -1.2835618791273481e-11 3.1555836178484657e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Encoder Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Encoder Motor Section" uid="Encoder Motor Section*:*Default" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Encoder Motor Section.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034354681162235598</Mass>
+<CenterOfMass>0.0025796917178127249 0.0041066237185339383 0.0018500000000000003</CenterOfMass>
+<Inertia>1.6160200147701694e-05 5.9094441245138708e-05 7.5176255461988558e-05 0 0 -1.4190655448907367e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Encoder Motor Section_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="L298N Motor Driver" uid="L298N Motor Driver*:*Default" version="698">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="L298N Motor Driver.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0093475841867969988</Mass>
+<CenterOfMass>0.00054516161249073148 0.0064192803054399089 0.00015244215398773752</CenterOfMass>
+<Inertia>1.7765746306859622e-06 2.5717024624640518e-06 1.5110423716116206e-06 -2.7333516087398607e-07 6.7299384183770696e-08 -4.3974108538500674e-09</Inertia>
+</MassProperties>
+<GeometryFile name="L298N Motor Driver_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.089411768258786661" g="0.089411768258786661" b="0.089411768258786661" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Lock" uid="Lock*:*Default" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lock.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001528577747524668</Mass>
+<CenterOfMass>0.0060062874072380245 -0.00406243416322968 0.0018500000000000001</CenterOfMass>
+<Inertia>1.2873143501047196e-08 4.1391082547320973e-07 4.2329626408032153e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Lock_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Shaft" uid="Shaft*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Shaft.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00035631245143830477</Mass>
+<CenterOfMass>0 -0.010452623509284029 -8.5325095401150508e-05</CenterOfMass>
+<Inertia>5.798760321370925e-09 1.5628089519219527e-09 5.8773603933108329e-09 -4.7043949600282578e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="breadth" uid="breadth*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="breadth.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0089890461349660996</Mass>
+<CenterOfMass>0 0.0066719040107353893 0.0018499999999999999</CenterOfMass>
+<Inertia>5.5205678878421172e-07 9.3044546163089529e-06 9.8360013981618838e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="breadth_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="encoderroller" uid="encoderroller*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="encoderroller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00078729641663268608</Mass>
+<CenterOfMass>0.0048102034797590995 0.0052151017809451347 0</CenterOfMass>
+<Inertia>1.9546623745490189e-08 1.431102508186632e-08 1.4311025081866315e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="encoderroller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motorroller" uid="motorroller*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motorroller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0057019906662654765</Mass>
+<CenterOfMass>0.0050000000000000018 0.0025011080001369258 0</CenterOfMass>
+<Inertia>5.5380584346103444e-07 3.2580181138364242e-07 3.2580181138364232e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motorroller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="slottedbase" uid="slottedbase*:*Default" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="slottedbase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.035339863713862163</Mass>
+<CenterOfMass>0.00024654197797878842 -0.0023439228691148344 0.001849999999999999</CenterOfMass>
+<Inertia>4.3022734680422058e-05 4.8966936587456813e-05 9.190903747883841e-05 0 0 1.7648633658651064e-07</Inertia>
+</MassProperties>
+<GeometryFile name="slottedbase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="standcasing" uid="standcasing*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="standcasing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020023239952948472</Mass>
+<CenterOfMass>-0.039378290247756111 -0.028197339290120024 0.0018500000000000001</CenterOfMass>
+<Inertia>4.7271973967843285e-06 4.1036516565881953e-05 4.5718027603506969e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="standcasing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

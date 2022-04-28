@@ -1,0 +1,8 @@
+Constrained Instances: Unknown
+Constraint Name: BeltMates3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'motorroller-1', 'encoderroller-1'
+Constraint Name: BeltMate3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
