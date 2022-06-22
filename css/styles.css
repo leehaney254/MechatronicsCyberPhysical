@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+
 .sidebar {
   position: fixed;
   left: -250px;
@@ -40,10 +41,15 @@
 
 ul li:hover a {
   padding-left: 50px;
+  background-color: #0a5b80;
 }
 
 .sidebar ul a i {
   margin-right: 16px;
+}
+
+.sidebar ul li.active {
+  background-color: #0a5b80;
 }
 
 #check {
