@@ -27,11 +27,11 @@ function loadGLTF() {
     let droneLoader = new THREE.GLTFLoader(); // hapa tunacreate the GLTFLoader ...Ni kama instances in python
     droneLoader.load('./Loader/model.glb', (gltf) => {
         droneMesh = gltf.scene;
-        droneMesh.scale.set(25, 25, 25) //tunaset scale
+        droneMesh.scale.set(2.5, 2.5, 2.5) //tunaset scale
         scene.add(droneMesh) //tuna add scene
-        droneMesh.position.x = -5;
-        droneMesh.position.y = 5;
-        droneMesh.position.z = 5;
+        droneMesh.position.x = -500;
+        droneMesh.position.y = 200;
+        droneMesh.position.z = -1000;
     });
 }
 

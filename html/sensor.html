@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sensor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Cyber physical</title>
+</head>
+
+<body>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fa fa-bars" id="btn"></i>
+    <i class="fa fa-times" id="cancel"></i>
+  </label>
+  <div class="sidebar">
+    <header>Cyber Physical</header>
+    <ul>
+      <li class="list active"><a href="index.html"><i class="fa fa-steam" aria-hidden="true"></i>Arm</a></li>
+      <li class="list"><a href="sensor.html"><i class="fa fa-podcast" aria-hidden="true"></i>Sensor value</a></li>
+      <li class="list"><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i></i>Team</a></li>
+      <li class="list"><a href="#"><i class="fa fa-book" aria-hidden="true"></i>Charter</a></li>
+    </ul>
+  </div>
+
+  <div class="sensors">
+    <div id="current" class="box">
+      <p><b>Torque</b></p>
+    </div>
+    <div id="rotation" class="box">
+      <p><b>RPM</b></p>
+    </div>
+    <div id="position" class="box">
+      <p><b>position</b></p>
+    </div>
+    <div id="home" class="box">
+      <p><b>Home</b></p>
+    </div>
+  </div>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
