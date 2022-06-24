@@ -3,3 +3,6 @@ https://youtu.be/HRaZLCBFVDE
 
 low pass filter
 https://youtu.be/HJ-C4Incgpw
+
+Communication with matlab
+https://www.youtube.com/watch?v=EwqzTbjVXrc
