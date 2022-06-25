@@ -43,35 +43,8 @@ body {
   transition: .5s;
 }
 
-.cards {
-  position: absolute;
-  inset: 20px 270px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  width: 250px;
-  height: 250px;
-  margin: 10px 70px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 .container {
   padding: 2px 16px;
-}
-
-.cards img {
-  width: 100%;
-  max-height: 200px;
 }
 
 ul li:hover a {
