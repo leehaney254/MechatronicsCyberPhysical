@@ -1,7 +1,9 @@
 String message;
+
 void setup() {
-  // put your setup code here, to run once:
+  //Setting boud rate with teensy is not necessary as it communicates at max usb speed
   Serial.begin(115200);
+  while(!Serial && millis()<1000){}                 //waits until connection is established with pc to begin serial printing
 }
 
 void loop() {
@@ -10,6 +12,8 @@ void loop() {
   {
     message = Serial.readStringUntil("/n");
     Serial.print("I have recieved message : ");
-    Serial.print(message);
+    Serial.println(message);
+    SerialUSB1.print(message);
   }
+  
 }

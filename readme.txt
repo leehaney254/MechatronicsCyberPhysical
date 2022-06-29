@@ -11,12 +11,10 @@ version:
 1.1.1 alpha
 
 
-model pins:
-encoder: PB0
-	 PB1
-current sensor: PA7
-motor driver: PB10
-	      PB11
-	enable - PB8
-FTDI :  RX - PA9
-	TX - PA10
+Communication with matalab
+When communicating  with matlab its hard to debug if the information had been recieved
+by the microcontroller. However, teensy has mutliple virtual communication ports where one 
+can be used to communicate with the pc application(matlab) and the others can be used in 
+debugging. This process is made smoother by tytools( https://github.com/Koromix/tytools )
+
+
