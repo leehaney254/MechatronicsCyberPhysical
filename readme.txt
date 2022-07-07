@@ -18,3 +18,6 @@ can be used to communicate with the pc application(matlab) and the others can be
 debugging. This process is made smoother by tytools( https://github.com/Koromix/tytools )
 
 
+web
+We use ajax to constantly update our webpage without refreshing
+we use ejs for templating

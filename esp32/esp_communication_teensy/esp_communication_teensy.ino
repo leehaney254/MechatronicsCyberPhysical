@@ -10,8 +10,5 @@ void loop()
 {
   if (Serial2.available()) {
     Serial.println(Serial2.readString());
-    delay(100);
   }
-  Serial2.println("Chege copied Lavender's hairstyle");
-  delay(1500);
 }

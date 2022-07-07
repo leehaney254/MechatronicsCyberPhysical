@@ -11,7 +11,6 @@ void loop() {
   if (Serial.available()>0)
   {
     message = Serial.readStringUntil("/n");
-    Serial.print("I have recieved message : ");
     Serial.println(message);
     SerialUSB1.print(message);
   }
