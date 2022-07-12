@@ -12,18 +12,33 @@
 #define firebaseAuth "jzT1xgPDY9La8wNbminplWB9FPHrzTHEXdm1gWBM"
 
 //wifi passwords
-const char* ssid = "TP-Link_D1F6";
-const char* password = "77373816" ;
+//const char* ssid = "TP-Link_D1F6";
+//const char* password = "77373816" ;
 //const char* ssid = "dekut";
 //const char* password = "dekut@ict2020?" ;
-//const char* ssid = "Martin Router King";
-//const char* password = "Budaboss2" ;
+const char* ssid = "Martin Router King";
+const char* password = "Budaboss2" ;
 
 //Define FirebaseESP32 data object
 FirebaseData firebaseData;
+//used to create json data
 FirebaseJson json;
 String jsonStr;
-String path = "/sensor";
+
+//child nodes to be updated
+String motor1path = "/motor1";
+String motor2path = "/motor2";
+String motor3path = "/motor3";
+String motor4path = "/motor4";
+String motor5path = "/motor5";
+String motor6path = "/motor6";
+
+float motor1 = 30.3;
+float motor2 = 40.4;
+float motor3 = 50.5;
+float motor4 = 60.6;
+float motor5 = 70.7;
+float motor6 = 80.8;
 
 void setup() {
   Serial.begin(115200);
@@ -57,8 +72,12 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  String sdata = "\"motor1\":20, \"motor2\":30,\"motor3\":40,";
-  json.set("/data", sdata);
+  json.set(motor1path, motor1);
+  json.set(motor2path, motor2);
+  json.set(motor3path, motor3);
+  json.set(motor4path, motor4);
+  json.set(motor5path, motor5);
+  json.set(motor6path, motor6);
   Firebase.updateNode(firebaseData,"/Sensor",json);
   
 
