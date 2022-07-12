@@ -1,14 +1,12 @@
 const firebase = require('firebase');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCgPv0Ib6R0wm8PwOmpCEzsG2c5NIk730I",
-  authDomain: "fir-20fd7.firebaseapp.com",
-  databaseURL: "https://fir-20fd7-default-rtdb.firebaseio.com",
-  projectId: "fir-20fd7",
-  storageBucket: "fir-20fd7.appspot.com",
-  messagingSenderId: "332813658093",
-  appId: "1:332813658093:web:f11669190b03ce4a14e9e4",
-  measurementId: "G-L3EDMWD7R6"
+  apiKey: "AIzaSyBfbMjSGBq-YYgwFG7OVe9g94aXpvRGKZw",
+  authDomain: "pegasus-3b383.firebaseapp.com",
+  projectId: "pegasus-3b383",
+  storageBucket: "pegasus-3b383.appspot.com",
+  messagingSenderId: "396066997907",
+  appId: "1:396066997907:web:221054fa44e21999b02f66"
 };
 
 firebase.initializeApp(firebaseConfig);
