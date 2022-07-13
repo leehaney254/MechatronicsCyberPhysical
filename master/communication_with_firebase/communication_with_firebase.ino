@@ -90,14 +90,6 @@ void setup() {
 void loop() {
   motor1 ++;motor2 ++;motor3 ++;motor4 ++;motor5 ++;motor6 ++;
   Serial.println(motor1);
-    float motor1 = 30.3;
-    float motor2 = 40.4;
-    float motor3 = 50.5;
-    float motor4 = 60.6;
-    float motor5 = 70.7;
-    float motor6 = 80.8;
-  delay(2000);
-  
   // put your main code here, to run repeatedly:
   //send the desired position of motors
   json.set(motor1path, motor1);
@@ -106,25 +98,8 @@ void loop() {
   json.set(motor4path, motor4);
   json.set(motor5path, motor5);
   json.set(motor6path, motor6);
-//
-//    // send the changing positions of motors
-//    json.set(motor1chang, motor1var);
-//    json.set(motor2chang, motor2var);
-//    json.set(motor3chang, motor3var);
-//    json.set(motor4chang, motor4var);
-//    json.set(motor5chang, motor5var);
-//    json.set(motor6chang, motor6var);
-    motor1var+1.0;motor2var+1.0;motor3var+1.0;motor4var+1.0;motor5var+1.0;motor6var+1.0;
-//    Serial.println(motor1var);
-//  if(motor4var >= 100.0)
-//  {
-//    motor1var = 5.0;
-//    motor2var = 10.0;
-//    motor3var = 15.0;
-//    motor4var = 20.0;
-//    motor5var = 30.0;
-//    motor6var = 40.0;
-//  }
-//  
-//  Firebase.updateNode(firebaseData,"/Sensor",json);
+  Firebase.updateNode(firebaseData,"/Sensor",json);
+  
+  delay(2000);
+  
 }
