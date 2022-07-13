@@ -19,6 +19,7 @@ const ref = firebase.database().ref("Sensor");
 const express = require('express');
 const path = require('path');
 const app = express();
+let data;
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/static')))
 
@@ -33,13 +34,13 @@ app.get("/", async (req, res) => {
 })
 //getting data from firebase
 // Attach an asynchronous callback to read the data at our posts reference
+ref.on('value', (snapshot) => {
+  data = snapshot.val();
+}, (errorObject) => {
+  console.log('The read failed: ' + errorObject.name);
+});
 app.get("/data", async (req, res) => {
-  ref.on('value', (snapshot) => {
-    let data = snapshot.val();
-    res.render("data", { data: data });
-  }, (errorObject) => {
-    console.log('The read failed: ' + errorObject.name);
-  });
+  res.render("data", { data: data });
 })
 
 
