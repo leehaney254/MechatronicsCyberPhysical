@@ -6,3 +6,6 @@ https://youtu.be/HJ-C4Incgpw
 
 Communication with matlab
 https://www.youtube.com/watch?v=EwqzTbjVXrc
+
+real time polling
+https://stackoverflow.com/questions/37602748/updating-data-realtime-in-node-js-express-website
