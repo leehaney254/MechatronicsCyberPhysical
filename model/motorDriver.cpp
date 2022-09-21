@@ -1,8 +1,8 @@
 #include "motorDriver.h"
 //motor one
-  #define enableA  PD4
-  #define forwardA  PD5
-  #define reverseA  PD6
+  #define enableA  11
+  #define forwardA  12
+  #define reverseA  13
   //motor two
   int enableB;
   int forwardB;

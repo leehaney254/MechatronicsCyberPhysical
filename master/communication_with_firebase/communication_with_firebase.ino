@@ -8,18 +8,16 @@
 
 
 //firebase prerequisites
-//#define firebaseHost "https://fir-20fd7-default-rtdb.firebaseio.com/"
-//#define firebaseAuth "jzT1xgPDY9La8wNbminplWB9FPHrzTHEXdm1gWBM"
-#define firebaseHost "https://pegasus-3b383-default-rtdb.firebaseio.com/"
-#define firebaseAuth "Y8oJuEhRiWsvRhikncnlBBQjOUMHWUzCNtPcFOV5"
+#define firebaseHost "https://testing-58bc5-default-rtdb.firebaseio.com/"
+#define firebaseAuth "oSNvh6eGbWV4QbITgtoZghe0eCRxDefpbGvuRWe3"
 
 //wifi passwords
 //const char* ssid = "TP-Link_D1F6";
 //const char* password = "77373816" ;
-//const char* ssid = "dekut";
-//const char* password = "dekut@ict2020?" ;
-const char* ssid = "Martin Router King";
-const char* password = "Budaboss2" ;
+const char* ssid = "dekut";
+const char* password = "dekut@ict2020?" ;
+//const char* ssid = "Martin Router King";
+//const char* password = "Budaboss2" ;
 
 //Define FirebaseESP32 data object
 FirebaseData firebaseData;
