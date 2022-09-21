@@ -37,10 +37,10 @@ function loadGLTF() {
         droneMesh = gltf.scene;
         droneMesh.scale.set(1.5, 1.5, 1.5) //tunaset scale
         scene.add(droneMesh) //tuna add the whole blender scene to the three.js plc 
-        // camera = gltf.cameras[0];
-        camera.position.copy(gltf.cameras[0].parent.position);
-        camera.quaternion.copy(gltf.cameras[0].parent.quaternion);
-        camera.scale.copy(gltf.cameras[0].parent.scale);
+        camera = gltf.cameras[0];
+        //camera.position.copy(gltf.cameras[0].parent.position);
+        //camera.quaternion.copy(gltf.cameras[0].parent.quaternion);
+        //camera.scale.copy(gltf.cameras[0].parent.scale);
         /*droneMesh.position.x = -100;
         droneMesh.position.y = 100;
         droneMesh.position.z = -500;*/
