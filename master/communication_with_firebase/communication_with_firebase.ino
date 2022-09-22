@@ -2,11 +2,6 @@
 #include <WiFi.h>
 #include <FirebaseESP32.h>
 
-//uart pins connected to mega
-#define txd1 17
-#define rxd1 16
-
-
 //firebase prerequisites
 #define firebaseHost "https://testing-58bc5-default-rtdb.firebaseio.com/"
 #define firebaseAuth "oSNvh6eGbWV4QbITgtoZghe0eCRxDefpbGvuRWe3"
@@ -18,6 +13,10 @@ const char* ssid = "dekut";
 const char* password = "dekut@ict2020?" ;
 //const char* ssid = "Martin Router King";
 //const char* password = "Budaboss2" ;
+
+#define txd2 17
+#define rxd2 16
+char *base, *shoulder, *elbow, *wristpitch, *wristroll;
 
 //Define FirebaseESP32 data object
 FirebaseData firebaseData;
@@ -33,31 +32,10 @@ String motor4path = "/motor4";
 String motor5path = "/motor5";
 String motor6path = "/motor6";
 
-String motor1chang = "/motor1change";
-String motor2chang = "/motor2change";
-String motor3chang = "/motor3change";
-String motor4chang = "/motor4change";
-String motor5chang = "/motor5change";
-String motor6chang = "/motor6change";
-
-float motor1 = 30.3;
-float motor2 = 40.4;
-float motor3 = 50.5;
-float motor4 = 60.6;
-float motor5 = 70.7;
-float motor6 = 80.8;
-
-float motor1var;
-float motor2var;
-float motor3var;
-float motor4var;
-float motor5var;
-float motor6var;
-
-
-void setup() {
+void setup()
+{
   Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, rxd1, txd1);
+  Serial2.begin(115200, SERIAL_8N1, rxd2, txd2);
   // put your setup code here, to run once:
   WiFi.disconnect();  //disconnects wifi to previous network
   WiFi.begin(ssid, password);
@@ -84,20 +62,29 @@ void setup() {
   Serial.println("------------------------------------");
   Serial.println("Connected...");
 }
-
-void loop() {
-  motor1 ++;motor2 ++;motor3 ++;motor4 ++;motor5 ++;motor6 ++;
-  Serial.println(motor1);
-  // put your main code here, to run repeatedly:
-  //send the desired position of motors
-  json.set(motor1path, motor1);
-  json.set(motor2path, motor2);
-  json.set(motor3path, motor3);
-  json.set(motor4path, motor4);
-  json.set(motor5path, motor5);
-  json.set(motor6path, motor6);
-  Firebase.updateNode(firebaseData,"/Sensor",json);
-  
-  delay(2000);
-  
+void loop()
+{
+  if (Serial2.available()) {
+    jsonStr = Serial2.readString();
+    Serial.println(jsonStr);
+    
+    char allAnglesArrays[25];
+     jsonStr.toCharArray(allAnglesArrays,25);
+    
+    //splitt into sections
+    const char *delimiter =",";
+    
+    //detokenize the angles
+    base = strtok(allAnglesArrays,delimiter);
+    shoulder = strtok(NULL,delimiter);
+    elbow = strtok(NULL,delimiter);
+    wristpitch = strtok(NULL,delimiter);
+    wristroll= strtok(NULL,delimiter);
+    json.set(motor1path, base);
+    json.set(motor2path, shoulder);
+    json.set(motor3path, elbow);
+    json.set(motor4path, wristpitch);
+    json.set(motor5path, wristroll);
+    Firebase.updateNode(firebaseData,"/Sensor",json);
+  }
 }
