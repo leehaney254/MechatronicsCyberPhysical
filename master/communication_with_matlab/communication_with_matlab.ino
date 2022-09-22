@@ -1,4 +1,5 @@
 #include <SPI.h>    //include spi library
+#include <SoftwareSerial.h>
 float r, p, y;
 int led = 7;
 char sent[3]= {};
@@ -7,10 +8,17 @@ char elbowSent[3] = {};
 char readChar[20] = {};
 int intShoulder;
 
+const byte rxPin = 2;
+const byte txPin = 3;
+
+// Set up a new SoftwareSerial object
+SoftwareSerial mySerial (rxPin, txPin);
+
 
 void setup() {
   //Setting boud rate with teensy is not necessary as it communicates at max usb speed
   Serial.begin(115200);
+  mySerial.begin(115200);
   while(!Serial && millis()<1000){}                 //waits until connection is established with pc to begin serial printing
   digitalWrite(SS, HIGH); // disable Slave Select
 //  //Spi configurations
@@ -29,6 +37,7 @@ void loop() {
 
    //read the string
     String allAngles = Serial.readString();
+    mySerial.println(allAngles);
     char allAnglesArrays[25];
    allAngles.toCharArray(allAnglesArrays,25);
 

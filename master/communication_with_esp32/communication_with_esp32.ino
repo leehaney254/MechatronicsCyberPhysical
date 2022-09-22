@@ -1,13 +1,17 @@
+#include <SoftwareSerial.h>
+
+const byte rxPin = 2;
+const byte txPin = 3;
+
+// Set up a new SoftwareSerial object
+SoftwareSerial mySerial (rxPin, txPin);
 
 void setup() {
-  //wait untill connection between board and teensy is established
-//  while(!Serial && millis() < 1000){};
-//  Serial.println("Serial monitor started succesfully");
-    Serial4.begin(115200);
+    mySerial.begin(115200);
 }
 
 void loop() {
-  Serial4.println("Hope you recieve this");
-  delay(100);
+  mySerial.println("Hope you recieve this");
+  delay(1000);
   
 }
